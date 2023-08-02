@@ -1,0 +1,17 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ui50001.controller.View1" displayBlock="true">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <VBox width="500px" direction="Column" id="vbox0" height="500px" fitContainer="true" backgroundDesign="Solid">
+                <items>
+                    <Text xmlns="sap.m" text="Welcome to the chat..." id="text2"/>
+                    <StandardListItem title="Deepak:" description="Hi" id="item2"/>
+                    <StandardListItem xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" title="Bot:" description="Hello Deepak, How can I help you today?" id="item2_copy" adaptTitleSize="false" iconInset="false" iconDensityAware="false"/>
+                    <StandardListItem xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" title="Deepak:" description="I want to create an offer for article 10001?" id="item3_copy" adaptTitleSize="false" iconInset="false" iconDensityAware="false"/>
+                    <StandardListItem xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" title="Bot:" description="Sure I can help you with the what dates you have in your mind?" id="item4_copy" adaptTitleSize="false" iconInset="false" iconDensityAware="false"/>
+                    <Input xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" id="input0" placeholder="enter your text"/>
+                    <Button xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" text="Send" id="button0"/>
+                </items>
+            </VBox>
+        </content>
+    </Page>
+</mvc:View>
